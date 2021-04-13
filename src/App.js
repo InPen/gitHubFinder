@@ -7,13 +7,11 @@ class App extends Component {
 
   render() {
     return (
-    <nav className= "navbar bg-primary">
-  
-    </nav>
+    <div className='App'>
+      <Navbar title=""/>
+    </div>
   );
-  }
-
-  
+  } 
 }
 
 export default App;
